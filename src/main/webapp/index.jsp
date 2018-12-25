@@ -15,17 +15,17 @@
             width: 100%;
         }
         #window-header{
-            background-color: #ffd916;
+
         }
     </style>
 </head>
 <body>
 
 <div id="window-header" class="jumbotron" style="height: 220px;margin-bottom: 0px" >
-    <img src="images/logo.png" height="90px" width="290px">
+    <img src="images/logo.png" height="110px" width="355px" style="margin-left: 250px">
 </div>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Trade</a>
+            <a class="navbar-brand" href="#">卖在校园</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,6 +50,7 @@
                 </form>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li>欢迎您，</li>
                 <li><a href="#">商品发布</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>
@@ -58,6 +59,7 @@
                         <li><a href="#">新留言</a></li>
                         <li><a href="#">已收藏</a></li>
                         <li><a href="#">我的足迹</a></li>
+                        <li><a href="#">个人信息</a></li>
                     </ul>
                 </li>
             </ul>
@@ -65,8 +67,8 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container">
-    <div class="row">
+<div class="container" style="height: 400px">
+
         <div class="col-sm-4">
             <ul class="nav nav-pills nav-stacked">
                 <li class ="active"><a href="#">数码</a></li>
@@ -75,18 +77,15 @@
                 <li><a href="#">服饰</a></li>
             </ul>
             <br />
-            <img src="images/TestImage1.jpg" alt="用户头像" class="img-circle center-block" height="100px" width="100px"> <br />
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-3">
-                    <button type="button" class="btn btn-primary ">登录</button>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">公告板</h3>
                 </div>
-                <div class="col-sm-3">
-                    <button type="button" class="btn btn-primary ">注册</button>
+                <div class="panel-body">
+
                 </div>
             </div>
-            <p class="text-center">关于我的介绍..<br />啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br />啊啊啊啊啊啊啊啊啊啊<br />啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br />啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊 <br />啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br />啊啊啊啊啊啊啊啊啊</p>
-
         </div>
 
         <div class="col-sm-8">
@@ -131,32 +130,26 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
-            <p>11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件</p>
-            <br>
-            <h2>标题</h2>
-            <h5>副标题</h5>
-
-            <p>11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件</p>
         </div>
-    </div>
-    <br />
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">公告板</h3>
-                </div>
-                <div class="panel-body">
-                    11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。青海省西宁城市职业技术学院学生经两年研发的点智通-模块化智能插座获实用新型专利。该插板是一种插孔头可拆卸的智能插座，具有即时更换，方便快捷，安全的优点，属于智能插座领域。据青海省科技厅数据显示，截至2018年，该省每万人有效发明专利拥有量为2.12件11月12日，学生通过手机APP连通点智通-模块化智能插座电源，使电器通电。
-                </div>
-            </div>
+</div>
+<div class="container" style="height: 600px">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#popular" data-toggle="tab">最近热门</a></li>
+        <li><a href="#release" data-toggle="tab">最新发布</a></li>
+        <li><a href="#browse" data-toggle="tab">最近浏览</a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="popular">
+            asssssssss
+        </div>
+        <div class="tab-pane fade" id="release">
+            s
+        </div>
+        <div class="tab-pane fade" id="browse">
+            d
         </div>
     </div>
 
-    <br />
-
-    <hr class="hidden-sm hidden-md hidden-lg">
 </div>
 
 <div class="jumbotron" style="background-color: #222222;height: 300px;margin-bottom:0">
