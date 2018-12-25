@@ -63,11 +63,11 @@ public class RegisteServlet extends HttpServlet {
         }
 
         if (flag){
-            request.setAttribute("loginName","注册成功！");
+            request.setAttribute("loginName",stuName);
             request.getRequestDispatcher("registeSuccess.jsp").forward(request,response);
         }else {
             request.setAttribute("loginName","注册失败，请重新注册");
-            request.getRequestDispatcher("registeSuccess.jsp").forward(request,response);
+            request.getRequestDispatcher("registeError.jsp").forward(request,response);
 
         }
 

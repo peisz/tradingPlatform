@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-${loginName}
+${loginName},注册成功，<a href="login.jsp">点此登陆</a>
 </body>
 </html>

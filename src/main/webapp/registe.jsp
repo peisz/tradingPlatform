@@ -42,6 +42,7 @@
 
         }
     </script>
+
 </head>
 <body>
 
@@ -71,7 +72,8 @@
                 <label for="phoneNumber">手机号</label>
                 <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="请输入手机号">
             </div>
-            <button type="submit" class="btn btn-primary">确定</button>
+
+            <button type="submit" class="btn btn-primary">立即注册</button>
         </form>
     </div>
 </div>

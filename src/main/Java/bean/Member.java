@@ -7,6 +7,33 @@ public class Member {
     private String phone_number;
     private String member_stuIDCard;
     private String member_photo;
+    private String member_profile;
+    private String member_gender;
+    private String member_email;
+
+    public String getMember_gender() {
+        return member_gender;
+    }
+
+    public void setMember_gender(String member_gender) {
+        this.member_gender = member_gender;
+    }
+
+    public String getMember_email() {
+        return member_email;
+    }
+
+    public void setMember_email(String member_email) {
+        this.member_email = member_email;
+    }
+
+    public String getMember_profile() {
+        return member_profile;
+    }
+
+    public void setMember_profile(String member_profile) {
+        this.member_profile = member_profile;
+    }
 
     public String getMember_stuIDCard() {
         return member_stuIDCard;

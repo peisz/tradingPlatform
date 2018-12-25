@@ -29,6 +29,8 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         }
 
         if(member!=null){
+            HttpSession session=request.getSession();
+            session.setAttribute("user",member);
             response.sendRedirect("index.jsp");
         }
         else {

@@ -47,12 +47,8 @@
 
 </head>
 <body>
-<div class="jumbotron" style="height: 220px;margin-bottom: 0px" >
-        <img src="images/logo.png" height="90px" width="290px">
-</div>
-
-
-<nav class="navbar navbar-default">
+<img src="images/logo.png" height="110px" width="355px" style=" margin-top:100px;margin-bottom:50px;margin-left: 100px">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -62,7 +58,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Trade</a>
+            <a class="navbar-brand" href="#">卖在校园</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,6 +81,7 @@
                         <li><a href="#">新留言</a></li>
                         <li><a href="#">已收藏</a></li>
                         <li><a href="#">我的足迹</a></li>
+                        <li><a href="#">个人信息</a></li>
                     </ul>
                 </li>
             </ul>

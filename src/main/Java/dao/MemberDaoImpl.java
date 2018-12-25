@@ -13,7 +13,7 @@ public class MemberDaoImpl implements  MemberDao{
         ResultSet rs = null;
         try {
             conn = JdbcUtils.getConn();
-            String sql = "SELECT phone_number,member_name,member_password FROM member WHERE phone_number=? AND member_password=?";
+            String sql = "SELECT member_id,member_name,member_password,phone_number,member_photo FROM member WHERE phone_number=? AND member_password=?";
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, phone_number);
             pstmt.setString(2, member_password);
@@ -22,9 +22,11 @@ public class MemberDaoImpl implements  MemberDao{
             Member member = null;
             if (rs.next()) {
                 member = new Member();
-                member.setPhone_number(rs.getString(1));
+                member.setMember_id(rs.getString(1));
                 member.setMember_name(rs.getString(2));
                 member.setMember_password(rs.getString(3));
+                member.setPhone_number(rs.getString(4));
+                member.setMember_photo(rs.getString(5));
             }
             return member;
         }finally {

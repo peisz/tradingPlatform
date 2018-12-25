@@ -14,18 +14,13 @@
         .carousel-inner img{
             width: 100%;
         }
-        #window-header{
 
-        }
     </style>
 </head>
 <body>
 
-<div id="window-header" class="jumbotron" style="height: 220px;margin-bottom: 0px" >
-    <img src="images/logo.png" height="110px" width="355px" style="margin-left: 250px">
-</div>
-
-<nav class="navbar navbar-inverse">
+<img src="images/logo.png" height="110px" width="355px" style=" margin-top:100px;margin-bottom:50px;margin-left: 100px">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -50,7 +45,6 @@
                 </form>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li>欢迎您，</li>
                 <li><a href="#">商品发布</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>
@@ -59,7 +53,7 @@
                         <li><a href="#">新留言</a></li>
                         <li><a href="#">已收藏</a></li>
                         <li><a href="#">我的足迹</a></li>
-                        <li><a href="#">个人信息</a></li>
+                        <li><a href="userInformation.jsp">个人信息</a></li>
                     </ul>
                 </li>
             </ul>
