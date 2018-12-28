@@ -52,7 +52,7 @@ public class MemberDaoImplTest {
     public void updateMemberHeadPhoto(){
         MemberDao memberDao = new MemberDaoImpl();
         Member member = new Member();
-        member.setPhone_number("111");
+        member.setPhone_number("123");
         member.setMember_photo("images/TestImage.jpg");
         boolean flag = false;
 

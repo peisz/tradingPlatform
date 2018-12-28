@@ -2,11 +2,19 @@ package bean;
 
 
 public class Comment {
+    public String getGoods_id() {
+        return goods_id;
+    }
+
+    public void setGoods_id(String goods_id) {
+        this.goods_id = goods_id;
+    }
+
     private String comment_id;
     private String comment_release_time;
     private String comment_content;
     private int member_id;
-    private int goods_id;
+    private String goods_id;
 
     public String getComment_id() {
         return comment_id;
@@ -40,14 +48,4 @@ public class Comment {
         this.member_id = member_id;
     }
 
-    public int getGoods_id() {
-        return goods_id;
-    }
-
-    public void setGoods_id(int goods_id) {
-        this.goods_id = goods_id;
-    }
-
-    public Comment() {
-    }
 }

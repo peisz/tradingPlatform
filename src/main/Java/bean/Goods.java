@@ -5,10 +5,37 @@ public class Goods {
     private String goods_name;
     private String price;
     private String release_time;
-    private String description_of_goods;
+    private String brief_account;
+    private String description;
     private String number_of_visit;
-    private int member_id;
-    private String classfication_id;
+    private String phone_number;
+    private String classification;
+
+
+    public String getBrief_account() {
+        return brief_account;
+    }
+
+    public void setBrief_account(String brief_account) {
+        this.brief_account = brief_account;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getPhone_number() {
+        return phone_number;
+    }
+
+    public void setPhone_number(String phone_number) {
+        this.phone_number = phone_number;
+    }
+
 
     public int getGoods_id() {
         return goods_id;
@@ -42,14 +69,6 @@ public class Goods {
         this.release_time = release_time;
     }
 
-    public String getDescription_of_goods() {
-        return description_of_goods;
-    }
-
-    public void setDescription_of_goods(String description_of_goods) {
-        this.description_of_goods = description_of_goods;
-    }
-
     public String getNumber_of_visit() {
         return number_of_visit;
     }
@@ -58,19 +77,11 @@ public class Goods {
         this.number_of_visit = number_of_visit;
     }
 
-    public int getMember_id() {
-        return member_id;
+    public String getClassification() {
+        return classification;
     }
 
-    public void setMember_id(int member_id) {
-        this.member_id = member_id;
-    }
-
-    public String getClassfication_id() {
-        return classfication_id;
-    }
-
-    public void setClassfication_id(String classfication_id) {
-        this.classfication_id = classfication_id;
+    public void setClassification(String classification) {
+        this.classification = classification;
     }
 }

@@ -171,7 +171,7 @@
 
     <div class="col-sm-5 col-sm-offset-1 ">
         <div class="well well-lg row" >
-            <form role="form"  action="Info.do" method="post">
+            <form role="form"  action="MemberInfo.do" method="post">
                 <div class="form-group">
                     <label for="stuID">学号</label>
                     <input type="text" class="form-control" name="stuID" id="stuID" value="${user.member_id}"  readonly>

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 
-@WebServlet(name = "MemberInfoServlet",urlPatterns = "/Info.do")
+@WebServlet(name = "MemberInfoServlet",urlPatterns = "/MemberInfo.do")
 public class MemberInfoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html; charset=UTF-8");
@@ -48,7 +48,7 @@ public class MemberInfoServlet extends HttpServlet {
 
         if (flag){
             session.setAttribute("user", member);
-            session.setAttribute("infoSucc","信息修改成功！");
+            session.setAttribute("infoSucc","个人信息修改成功！");
             response.sendRedirect("userInformation.jsp");
         }
 

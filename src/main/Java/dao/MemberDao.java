@@ -3,7 +3,7 @@ package dao;
 import bean.Member;
 
 import java.sql.SQLException;
-import java.util.List;
+
 
     public interface MemberDao {
         public Member getMember(String phone_number,String member_password) throws SQLException;
@@ -12,5 +12,4 @@ import java.util.List;
         public boolean updateMemberHeadPhoto(Member member) throws  SQLException;
         public boolean updateMemberStuIDCard(Member member) throws  SQLException;
         public boolean updateMemberInfo(Member member) throws SQLException;
-//        public boolean updateMemberInfo(Member member) throws SQLException;
     }

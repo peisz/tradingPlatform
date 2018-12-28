@@ -1,15 +1,15 @@
 package bean;
 
 public class Picture {
-    private String picture_url;
+    private String picture;
     private int goods_id;
 
-    public String getPicture_url() {
-        return picture_url;
+    public String getPicture() {
+        return picture;
     }
 
-    public void setPicture_url(String picture_url) {
-        this.picture_url = picture_url;
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 
     public int getGoods_id() {

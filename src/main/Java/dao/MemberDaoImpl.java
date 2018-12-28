@@ -1,5 +1,6 @@
 package dao;
 
+import bean.Goods;
 import bean.Member;
 import utils.JdbcUtils;
 
@@ -171,8 +172,6 @@ public class MemberDaoImpl implements  MemberDao{
             JdbcUtils.closeConn(connection);
         }
     }
-
-
 
 
    /* public boolean updateMemberInfo(Member member) throws SQLException{
