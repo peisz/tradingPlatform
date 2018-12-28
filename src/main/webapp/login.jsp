@@ -42,7 +42,7 @@
     </div>
 
     <div class="row" id="form1">
-        <form class="col-sm-4 col-sm-offset-4" action="Login" method="post">
+        <form class="col-sm-4 col-sm-offset-4" action="Login.do" method="post">
             <div class="form-group">
                 <label for="phone_number">手机号</label>
                 <input type="text" class="form-control" id="phone_number"  name="phone_number" placeholder="请输入手机号">

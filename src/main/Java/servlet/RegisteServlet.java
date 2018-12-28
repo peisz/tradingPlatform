@@ -3,26 +3,19 @@ package servlet;
 import bean.Member;
 import dao.MemberDao;
 import dao.MemberDaoImpl;
-import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.FileUploadException;
-import org.apache.commons.fileupload.disk.DiskFileItemFactory;
-import org.apache.commons.fileupload.servlet.ServletFileUpload;
-import utils.MyTools;
 
-import javax.servlet.ServletContext;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
+
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.Iterator;
-import java.util.List;
-import java.util.UUID;
 
-@WebServlet(name = "RegisteServlet",value = "/Registe")
+
+@WebServlet(name = "RegisteServlet",urlPatterns = "/Registe.do")
 public class RegisteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html; charset=UTF-8");
@@ -40,6 +33,7 @@ public class RegisteServlet extends HttpServlet {
         member.setMember_name(stuName);
         member.setMember_password(password);
         member.setPhone_number(phoneNumber);
+        member.setMember_nickname(stuName);
 
         boolean flag = false;
         Member member1 = null;

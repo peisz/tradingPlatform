@@ -11,6 +11,9 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <style type="text/css">
+        body{
+
+        }
         .carousel-inner img{
             width: 100%;
         }

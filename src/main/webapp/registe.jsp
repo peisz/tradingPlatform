@@ -39,7 +39,20 @@
                 }
             }
             return true;
-
+        }
+    </script>
+    <script type="text/javascript">
+        function beforeSubmit(){
+            for(var i=0;i<document.form1.elements.length-1;i++)
+            {
+                if(document.form1.elements[i].value=="")
+                {
+                    alert("当前表单不能有空项");
+                    document.form1.elements[i].focus();
+                    return false;
+                }
+            }
+            return true;
         }
     </script>
 
@@ -51,7 +64,7 @@
         <img src="images/logo.png" height="110px" width="355px" >
     </div>
     <div class="col-sm-4" style="margin:150px 0 0 50px">
-        <form name="form1" role="form" action="Registe" method="post" onSubmit="return myCheck()">
+        <form name="form1" role="form" action="Registe.do" method="post" onSubmit="return beforeSubmit();">
             <div class="form-group">
                 <label for="stuID">学号</label>
                 <input type="text" class="form-control" id="stuID" name="stuID" placeholder="请输入学号">

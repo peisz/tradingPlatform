@@ -5,11 +5,39 @@ public class Member {
     private String member_name;
     private String member_password;
     private String phone_number;
-    private String member_stuIDCard;
     private String member_photo;
-    private String member_profile;
+    private String member_nickname;
     private String member_gender;
+    private String member_age;
     private String member_email;
+    private String member_profile;
+    private String member_stuIDCard;
+    private String verification_status;
+
+
+    public String getMember_age() {
+        return member_age;
+    }
+
+    public void setMember_age(String member_age) {
+        this.member_age = member_age;
+    }
+
+    public String getMember_nickname() {
+        return member_nickname;
+    }
+
+    public void setMember_nickname(String member_nickname) {
+        this.member_nickname = member_nickname;
+    }
+
+    public String getVerification_status() {
+        return verification_status;
+    }
+
+    public void setVerification_status(String verification_status) {
+        this.verification_status = verification_status;
+    }
 
     public String getMember_gender() {
         return member_gender;
