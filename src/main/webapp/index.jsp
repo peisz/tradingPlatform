@@ -52,7 +52,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">已发布</a></li>
+                        <li><a href="MyRelease.do" methods="">已发布</a></li>
                         <li><a href="#">新留言</a></li>
                         <li><a href="#">已收藏</a></li>
                         <li><a href="#">我的足迹</a></li>

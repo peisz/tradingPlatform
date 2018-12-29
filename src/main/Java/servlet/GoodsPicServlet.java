@@ -33,7 +33,7 @@ public class GoodsPicServlet extends HttpServlet {
             e.printStackTrace();
         }
         System.out.println("3333333333333333333333333333");
-        picture.setPicture("goodsPicture/"+newFileName);
+        picture.setPicture_url("goodsPicture/"+newFileName);
         GoodsDao goodsDao = new GoodsDaoImpl();
         boolean flag = false;
 

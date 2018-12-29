@@ -1,16 +1,26 @@
 package bean;
 
-public class Goods {
+import java.util.List;
+
+public class Goods{
     private int goods_id;
     private String goods_name;
     private String price;
-    private String release_time;
     private String brief_account;
     private String description;
     private String number_of_visit;
     private String phone_number;
     private String classification;
+    private String release_time;
+    private List<Picture> goodsPicture;
 
+    public List<Picture> getGoodsPicture() {
+        return goodsPicture;
+    }
+
+    public void setGoodsPicture(List<Picture> goodsPicture) {
+        this.goodsPicture = goodsPicture;
+    }
 
     public String getBrief_account() {
         return brief_account;

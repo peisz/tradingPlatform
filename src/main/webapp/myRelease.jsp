@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
@@ -53,11 +54,11 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
             <a class="navbar-brand" href="#">卖在校园</a>
         </div>
 
@@ -89,36 +90,88 @@
     </div><!-- /.container-fluid -->
 </nav>
 <img src="images/logo.png" height="110px" width="355px" style=" margin-top:100px;margin-bottom:50px;margin-left: 100px">
+<div class="container">
+    <div class="container" id="masonry">
+        <c:forEach var="goods" items="${gList}">
+                <div class="well">
+                    <img src="${goods.getGoodsPicture().get(0).getPicture_url()}" class="img-rounded">
+                    <a href="item.jsp">
+                        <div class="text-center">${goods.goods_name}</div><br />
+                        <div class="col-sm-8">${goods.brief_account}啊啊啊啊啊啊啊啊啊啊啊啊</div>
+                        <div class="col-sm-4">${goods.price}元</div>
+                    </a>
+                </div>
+        </c:forEach >
 
-<div class="container" id="masonry">
-    <div class="well"></div>
-        <div class="well"><img src="images/TestImage2.jpg" class="img-rounded">123333</div>
-        <div class="well"><img src="images/head.jpg" class="img-rounded">132222222</div>
-        <div class="well"><img src="images/TestImage.jpg" class="img-rounded">3122222222</div>
-        <div class="well"><img src="images/TestImage3.jpg" class="img-rounded">4566666654</div>
 
-    <div class="well"><img src="images/TestImage2.jpg" class="img-rounded">123333</div>
-    <div class="well"><img src="images/head.jpg" class="img-rounded">132222222</div>
-    <div class="well"><img src="images/TestImage.jpg" class="img-rounded">3122222222</div>
-    <div class="well"><img src="images/TestImage3.jpg" class="img-rounded">4566666654</div>
-    <div class="well"><img src="images/TestImage2.jpg" class="img-rounded">123333</div>
-    <div class="well"><img src="images/head.jpg" class="img-rounded">132222222</div>
-    <div class="well"><img src="images/TestImage.jpg" class="img-rounded">3122222222</div>
-    <div class="well"><img src="images/TestImage3.jpg" class="img-rounded">4566666654</div>
-    <div class="well"><img src="images/TestImage2.jpg" class="img-rounded">123333</div>
-    <div class="well"><img src="images/head.jpg" class="img-rounded">132222222</div>
-    <div class="well"><img src="images/TestImage.jpg" class="img-rounded">3122222222</div>
-    <div class="well"><img src="images/TestImage3.jpg" class="img-rounded">4566666654</div>
-    <div class="well"><img src="images/TestImage2.jpg" class="img-rounded">123333</div>
-    <div class="well"><img src="images/head.jpg" class="img-rounded">132222222</div>
-    <div class="well"><img src="images/TestImage.jpg" class="img-rounded">3122222222</div>
-    <div class="well"><img src="images/TestImage3.jpg" class="img-rounded">4566666654</div>
-    <div class="well"><img src="images/TestImage2.jpg" class="img-rounded">123333</div>
-    <div class="well"><img src="images/head.jpg" class="img-rounded">132222222</div>
-    <div class="well"><img src="images/TestImage.jpg" class="img-rounded">3122222222</div>
-    <div class="well"><img src="images/TestImage3.jpg" class="img-rounded">4566666654</div>
+        <c:forEach var="goods" items="${gList}">
+            <div class="well">
+                <img src="${goods.getGoodsPicture().get(0).getPicture_url()}" class="img-rounded">
+                <a href="item.jsp">
+                    <div class="text-center">${goods.goods_name}</div><br />
+                    <div class="col-sm-8">${goods.brief_account}啊啊啊啊啊啊啊啊啊啊啊啊</div>
+                    <div class="col-sm-4">${goods.price}元</div>
+                </a>
+            </div>
+        </c:forEach ><c:forEach var="goods" items="${gList}">
+        <div class="well">
+            <img src="${goods.getGoodsPicture().get(0).getPicture_url()}" class="img-rounded">
+            <a href="item.jsp">
+                <div class="text-center">${goods.goods_name}</div><br />
+                <div class="col-sm-8">${goods.brief_account}啊啊啊啊啊啊啊啊啊啊啊啊</div>
+                <div class="col-sm-4">${goods.price}元</div>
+            </a>
+        </div>
+    </c:forEach ><c:forEach var="goods" items="${gList}">
+        <div class="well">
+            <img src="${goods.getGoodsPicture().get(0).getPicture_url()}" class="img-rounded">
+            <a href="item.jsp">
+                <div class="text-center">${goods.goods_name}</div><br />
+                <div class="col-sm-8">${goods.brief_account}啊啊啊啊啊啊啊啊啊啊啊啊</div>
+                <div class="col-sm-4">${goods.price}元</div>
+            </a>
+        </div>
+    </c:forEach ><c:forEach var="goods" items="${gList}">
+        <div class="well">
+            <img src="${goods.getGoodsPicture().get(0).getPicture_url()}" class="img-rounded">
+            <a href="item.jsp">
+                <div class="text-center">${goods.goods_name}</div><br />
+                <div class="col-sm-8">${goods.brief_account}啊啊啊啊啊啊啊啊啊啊啊啊</div>
+                <div class="col-sm-4">${goods.price}元</div>
+            </a>
+        </div>
+    </c:forEach >
+
+    </div>
+</div>
 
 </div>
 
+
+<div class="row">
+    <nav aria-label="Page navigation" style="text-align: center">
+        <ul class="pagination pagination-lg ">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">······</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
 </body>
 </html>
